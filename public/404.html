@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // 把路径转成 hash 形式再跳回 index.html
+        const path = location.pathname.replace('/mall-vue/', '');
+        location.replace('/mall-vue/#' + path + location.search);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
